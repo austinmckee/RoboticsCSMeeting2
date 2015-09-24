@@ -25,6 +25,7 @@ class TestApp(App):
         p[0] += change[0]
         p[1] += change[1]
         animation.start(instance)
+        print(instance) 
 
     def build(self):
         # create a button, and  attach animate() method as a on_press handler
